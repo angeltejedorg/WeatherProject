@@ -52,8 +52,11 @@ a {
         width: 80%;
     }
 
+    .preview-cointainer  h1 {
+        font-size: 25px;
+    }
     .preview-cointainer button {
-        width: 50%;
+        width: 45%;
     }
 
 }

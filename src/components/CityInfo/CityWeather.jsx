@@ -30,7 +30,7 @@ const CityWeather = ({
         </div>
 
         <div className="card-cointainer2">
-        <p>{humidity} % <span>Humidity</span> </p>
+        <p>{(feelsLike-273.15).toFixed(1)} °C<span>Feels like</span></p>
         <p>{(tMin-273.15).toFixed(1)} °C<span>Lowest Temperature</span></p>
         <p>{(tMax-273.15).toFixed(1)} °C<span>Highest Temperature</span></p>
         </div>
@@ -38,7 +38,7 @@ const CityWeather = ({
        
 
         <div className="card-cointainer2">
-        <p>{(feelsLike-273.15).toFixed(1)} °C<span>Feels like</span></p>
+        <p>{humidity} % <span>Humidity</span> </p>
         <p>{windSpeed} m/s  <span>Wind speed</span> </p>
         <p>{windDirection}°  <span>Wind direction</span> </p>
         </div>
