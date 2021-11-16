@@ -1,0 +1,83 @@
+.information-container {
+    display: flex;
+    flex-wrap: flex;
+    margin: auto;
+    padding: 0;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.card-cointainer1 {
+    box-sizing: border-box;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #292C30;
+    box-shadow: 10px 14px 20px -3px rgba(176,176,176,0.72);
+    background-color: #4650DD;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-cointainer2 {
+    box-sizing: border-box;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #292C30;
+    box-shadow: 10px 14px 20px -3px rgba(176,176,176,0.72);
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    padding-left: 50px;
+}
+.card-cointainer1 p {
+    font-size: 55px;
+    font-weight: 200;
+    margin: 20px 0;
+    color:#FFFFFF;
+}
+.card-cointainer2 p {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 20px 0;
+    color: #4650DD;
+    
+}
+
+.card-cointainer1 h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+
+.card-cointainer2 h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    
+}
+
+.card-cointainer1 span {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+}
+
+.card-cointainer2 span {
+    font-size: 20px;
+    text-align:left ;
+    display: block;
+    text-transform: capitalize;
+    color: rgb(151, 155, 160);
+}
+
