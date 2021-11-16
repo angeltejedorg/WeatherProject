@@ -30,6 +30,15 @@
   }
 
  
+  @media (max-width: 767px){
+    h2 {
+      font-size: 15px;
+    }
+    ul {
+      margin-top: 8px;
+      margin-bottom: 8px; 
+    }  
+}
 
 
 

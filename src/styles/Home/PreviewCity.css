@@ -49,7 +49,11 @@ a {
 
 @media (max-width: 769px){
     .preview-cointainer{
-        width: 70%;
+        width: 80%;
+    }
+
+    .preview-cointainer button {
+        width: 50%;
     }
 
 }

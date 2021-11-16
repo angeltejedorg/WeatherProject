@@ -43,12 +43,15 @@ form input[type = "submit"]:hover {
 
 @media (max-width: 767px){
     form { 
-        width: 70%;
+        width: 80%;
+    }
+    form input[type = "submit"] { 
+        font-size: 10px;
     }
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
     form { 
-        width: 60%;
+        width: 70%;
     }
 }
 

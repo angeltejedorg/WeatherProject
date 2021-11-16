@@ -1,6 +1,6 @@
 .information-container {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     margin: auto;
     padding: 0;
     justify-content: space-around;
@@ -81,3 +81,16 @@
     color: rgb(151, 155, 160);
 }
 
+
+@media (max-width: 769px){
+   
+    .card-cointainer1 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .card-cointainer2 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
